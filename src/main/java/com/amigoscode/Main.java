@@ -11,6 +11,8 @@ import java.util.List;
 @RestController
 public class Main {
 
+    // hello
+
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
@@ -22,6 +24,7 @@ public class Main {
         return List.of(
                 new User(1, "Jamila"),
                 new User(2, "Jake"),
+                new User(3, "James"),
                 new User(3, "James")
         );
     }
